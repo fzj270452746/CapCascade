@@ -1,0 +1,4491 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "miyrcu",
+    "printedName": "miyrcu",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "miyrcu"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GlowVeilView",
+        "printedName": "GlowVeilView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "UmbralEntity",
+            "printedName": "UmbralEntity",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "layer",
+                "printedName": "layer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CALayer",
+                    "printedName": "QuartzCore.CALayer",
+                    "usr": "c:objc(cs)CALayer"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC5layerSo7CALayerCvp",
+                "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC5layerSo7CALayerCvp",
+                "moduleName": "miyrcu",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CALayer",
+                        "printedName": "QuartzCore.CALayer",
+                        "usr": "c:objc(cs)CALayer"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC5layerSo7CALayerCvg",
+                    "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC5layerSo7CALayerCvg",
+                    "moduleName": "miyrcu",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent",
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "position",
+                "printedName": "position",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC8positionSo7CGPointVvp",
+                "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC8positionSo7CGPointVvp",
+                "moduleName": "miyrcu",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 1,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPoint",
+                        "printedName": "CoreFoundation.CGPoint",
+                        "usr": "c:@S@CGPoint"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC8positionSo7CGPointVvg",
+                    "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC8positionSo7CGPointVvg",
+                    "moduleName": "miyrcu",
+                    "implicit": true,
+                    "isOpen": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPoint",
+                        "printedName": "CoreFoundation.CGPoint",
+                        "usr": "c:@S@CGPoint"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC8positionSo7CGPointVvs",
+                    "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC8positionSo7CGPointVvs",
+                    "moduleName": "miyrcu",
+                    "implicit": true,
+                    "isOpen": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC8positionSo7CGPointVvM",
+                    "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC8positionSo7CGPointVvM",
+                    "moduleName": "miyrcu",
+                    "implicit": true,
+                    "isOpen": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "velocity",
+                "printedName": "velocity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC8velocitySo7CGPointVvp",
+                "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC8velocitySo7CGPointVvp",
+                "moduleName": "miyrcu",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 2,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPoint",
+                        "printedName": "CoreFoundation.CGPoint",
+                        "usr": "c:@S@CGPoint"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC8velocitySo7CGPointVvg",
+                    "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC8velocitySo7CGPointVvg",
+                    "moduleName": "miyrcu",
+                    "implicit": true,
+                    "isOpen": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPoint",
+                        "printedName": "CoreFoundation.CGPoint",
+                        "usr": "c:@S@CGPoint"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC8velocitySo7CGPointVvs",
+                    "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC8velocitySo7CGPointVvs",
+                    "moduleName": "miyrcu",
+                    "implicit": true,
+                    "isOpen": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC8velocitySo7CGPointVvM",
+                    "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC8velocitySo7CGPointVvM",
+                    "moduleName": "miyrcu",
+                    "implicit": true,
+                    "isOpen": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(layer:position:velocity:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UmbralEntity",
+                    "printedName": "miyrcu.GlowVeilView.UmbralEntity",
+                    "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CALayer",
+                    "printedName": "QuartzCore.CALayer",
+                    "usr": "c:objc(cs)CALayer"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC5layer8position8velocityAESo7CALayerC_So7CGPointVALtcfc",
+                "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC5layer8position8velocityAESo7CALayerC_So7CGPointVALtcfc",
+                "moduleName": "miyrcu",
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:6miyrcu12GlowVeilViewC12UmbralEntityC",
+            "mangledName": "$s6miyrcu12GlowVeilViewC12UmbralEntityC",
+            "moduleName": "miyrcu",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "VigilState",
+            "printedName": "VigilState",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "active",
+                "printedName": "active",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(miyrcu.GlowVeilView.VigilState.Type) -> miyrcu.GlowVeilView.VigilState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VigilState",
+                        "printedName": "miyrcu.GlowVeilView.VigilState",
+                        "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "miyrcu.GlowVeilView.VigilState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VigilState",
+                            "printedName": "miyrcu.GlowVeilView.VigilState",
+                            "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO6activeyA2EmF",
+                "mangledName": "$s6miyrcu12GlowVeilViewC10VigilStateO6activeyA2EmF",
+                "moduleName": "miyrcu",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "terminated",
+                "printedName": "terminated",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(miyrcu.GlowVeilView.VigilState.Type) -> miyrcu.GlowVeilView.VigilState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VigilState",
+                        "printedName": "miyrcu.GlowVeilView.VigilState",
+                        "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "miyrcu.GlowVeilView.VigilState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VigilState",
+                            "printedName": "miyrcu.GlowVeilView.VigilState",
+                            "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO10terminatedyA2EmF",
+                "mangledName": "$s6miyrcu12GlowVeilViewC10VigilStateO10terminatedyA2EmF",
+                "moduleName": "miyrcu",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VigilState",
+                    "printedName": "miyrcu.GlowVeilView.VigilState",
+                    "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VigilState",
+                    "printedName": "miyrcu.GlowVeilView.VigilState",
+                    "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s6miyrcu12GlowVeilViewC10VigilStateO2eeoiySbAE_AEtFZ",
+                "moduleName": "miyrcu",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO9hashValueSivp",
+                "mangledName": "$s6miyrcu12GlowVeilViewC10VigilStateO9hashValueSivp",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO9hashValueSivg",
+                    "mangledName": "$s6miyrcu12GlowVeilViewC10VigilStateO9hashValueSivg",
+                    "moduleName": "miyrcu",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s6miyrcu12GlowVeilViewC10VigilStateO4hash4intoys6HasherVz_tF",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:6miyrcu12GlowVeilViewC10VigilStateO",
+            "mangledName": "$s6miyrcu12GlowVeilViewC10VigilStateO",
+            "moduleName": "miyrcu",
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GlowVeilView",
+                "printedName": "miyrcu.GlowVeilView",
+                "usr": "c:@M@miyrcu@objc(cs)GlowVeilView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@miyrcu@objc(cs)GlowVeilView(im)initWithFrame:",
+            "mangledName": "$s6miyrcu12GlowVeilViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "miyrcu.GlowVeilView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GlowVeilView",
+                    "printedName": "miyrcu.GlowVeilView",
+                    "usr": "c:@M@miyrcu@objc(cs)GlowVeilView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@miyrcu@objc(cs)GlowVeilView(im)initWithCoder:",
+            "mangledName": "$s6miyrcu12GlowVeilViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@miyrcu@objc(cs)GlowVeilView(im)layoutSubviews",
+            "mangledName": "$s6miyrcu12GlowVeilViewC14layoutSubviewsyyF",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@miyrcu@objc(cs)GlowVeilView",
+        "mangledName": "$s6miyrcu12GlowVeilViewC",
+        "moduleName": "miyrcu",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GloomCatalystController",
+        "printedName": "GloomCatalystController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@miyrcu@objc(cs)GloomCatalystController(im)viewDidLoad",
+            "mangledName": "$s6miyrcu23GloomCatalystControllerC11viewDidLoadyyF",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GloomCatalystController",
+                "printedName": "miyrcu.GloomCatalystController",
+                "usr": "c:@M@miyrcu@objc(cs)GloomCatalystController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@miyrcu@objc(cs)GloomCatalystController(im)initWithNibName:bundle:",
+            "mangledName": "$s6miyrcu23GloomCatalystControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "miyrcu.GloomCatalystController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GloomCatalystController",
+                    "printedName": "miyrcu.GloomCatalystController",
+                    "usr": "c:@M@miyrcu@objc(cs)GloomCatalystController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@miyrcu@objc(cs)GloomCatalystController(im)initWithCoder:",
+            "mangledName": "$s6miyrcu23GloomCatalystControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@miyrcu@objc(cs)GloomCatalystController",
+        "mangledName": "$s6miyrcu23GloomCatalystControllerC",
+        "moduleName": "miyrcu",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "miyrcu"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "miyrcu"
+      },
+      {
+        "kind": "Import",
+        "name": "AdjustSdk",
+        "printedName": "AdjustSdk",
+        "declKind": "Import",
+        "moduleName": "miyrcu"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "miyrcu"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SznheXzuejViewController",
+        "printedName": "SznheXzuejViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC011userContentE0_10didReceiveySo06WKUsergE0C_So15WKScriptMessageCtF",
+            "moduleName": "miyrcu",
+            "isOpen": true,
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "safariViewControllerDidFinish",
+            "printedName": "safariViewControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewController",
+                "printedName": "SafariServices.SFSafariViewController",
+                "usr": "c:objc(cs)SFSafariViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)safariViewControllerDidFinish:",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC06safaridE9DidFinishyySo08SFSafaridE0CF",
+            "moduleName": "miyrcu",
+            "isOpen": true,
+            "objc_name": "safariViewControllerDidFinish:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "insehys",
+            "printedName": "insehys",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "miyrcu.Tabzged?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tabzged",
+                    "printedName": "miyrcu.Tabzged",
+                    "usr": "s:6miyrcu7TabzgedV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu24SznheXzuejViewControllerC7insehysAA7TabzgedVSgvp",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC7insehysAA7TabzgedVSgvp",
+            "moduleName": "miyrcu",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "miyrcu.Tabzged?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tabzged",
+                        "printedName": "miyrcu.Tabzged",
+                        "usr": "s:6miyrcu7TabzgedV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu24SznheXzuejViewControllerC7insehysAA7TabzgedVSgvg",
+                "mangledName": "$s6miyrcu24SznheXzuejViewControllerC7insehysAA7TabzgedVSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "miyrcu.Tabzged?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tabzged",
+                        "printedName": "miyrcu.Tabzged",
+                        "usr": "s:6miyrcu7TabzgedV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu24SznheXzuejViewControllerC7insehysAA7TabzgedVSgvs",
+                "mangledName": "$s6miyrcu24SznheXzuejViewControllerC7insehysAA7TabzgedVSgvs",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu24SznheXzuejViewControllerC7insehysAA7TabzgedVSgvM",
+                "mangledName": "$s6miyrcu24SznheXzuejViewControllerC7insehysAA7TabzgedVSgvM",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "kslire",
+            "printedName": "kslire",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu24SznheXzuejViewControllerC6kslire33_3C0F153A1B4D8985205EC29B9F9A9B7FLLSo05WKWebD0CSgvp",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC6kslire33_3C0F153A1B4D8985205EC29B9F9A9B7FLLSo05WKWebD0CSgvp",
+            "moduleName": "miyrcu",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "nsjeis",
+            "printedName": "nsjeis",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu24SznheXzuejViewControllerC6nsjeis33_3C0F153A1B4D8985205EC29B9F9A9B7FLLSSvp",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC6nsjeis33_3C0F153A1B4D8985205EC29B9F9A9B7FLLSSvp",
+            "moduleName": "miyrcu",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "aidstr",
+            "printedName": "aidstr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu24SznheXzuejViewControllerC6aidstr33_3C0F153A1B4D8985205EC29B9F9A9B7FLLSSvp",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC6aidstr33_3C0F153A1B4D8985205EC29B9F9A9B7FLLSSvp",
+            "moduleName": "miyrcu",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "ifastr",
+            "printedName": "ifastr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu24SznheXzuejViewControllerC6ifastr33_3C0F153A1B4D8985205EC29B9F9A9B7FLLSSvp",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC6ifastr33_3C0F153A1B4D8985205EC29B9F9A9B7FLLSSvp",
+            "moduleName": "miyrcu",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)viewDidLoad",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC11viewDidLoadyyF",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "miyrcu",
+            "isOpen": true,
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC03webD0_09createWebD4With3for14windowFeaturesSo05WKWebD0CSgAI_So0mD13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
+            "moduleName": "miyrcu",
+            "isOpen": true,
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(py)shouldAutorotate",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC16shouldAutorotateSbvp",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)shouldAutorotate",
+                "mangledName": "$s6miyrcu24SznheXzuejViewControllerC16shouldAutorotateSbvg",
+                "moduleName": "miyrcu",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s6miyrcu24SznheXzuejViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "miyrcu",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SznheXzuejViewController",
+                "printedName": "miyrcu.SznheXzuejViewController",
+                "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "miyrcu.SznheXzuejViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SznheXzuejViewController",
+                    "printedName": "miyrcu.SznheXzuejViewController",
+                    "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController(im)initWithCoder:",
+            "mangledName": "$s6miyrcu24SznheXzuejViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "miyrcu",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@miyrcu@objc(cs)SznheXzuejViewController",
+        "mangledName": "$s6miyrcu24SznheXzuejViewControllerC",
+        "moduleName": "miyrcu",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "miyrcu"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "miyrcu"
+      },
+      {
+        "kind": "Import",
+        "name": "AdjustSdk",
+        "printedName": "AdjustSdk",
+        "declKind": "Import",
+        "moduleName": "miyrcu"
+      },
+      {
+        "kind": "Function",
+        "name": "Unadjei",
+        "printedName": "Unadjei(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6miyrcu7UnadjeiySSSgSSF",
+        "mangledName": "$s6miyrcu7UnadjeiySSSgSSF",
+        "moduleName": "miyrcu",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "kYbaeyah",
+        "printedName": "kYbaeyah",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:6miyrcu8kYbaeyahSSvp",
+        "mangledName": "$s6miyrcu8kYbaeyahSSvp",
+        "moduleName": "miyrcu",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "kCzudhbbs",
+        "printedName": "kCzudhbbs",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:6miyrcu9kCzudhbbsSSvp",
+        "mangledName": "$s6miyrcu9kCzudhbbsSSvp",
+        "moduleName": "miyrcu",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "Gahdun",
+        "printedName": "Gahdun()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6miyrcu6GahdunyyF",
+        "mangledName": "$s6miyrcu6GahdunyyF",
+        "moduleName": "miyrcu",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "msoijeh",
+        "printedName": "msoijeh()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6miyrcu7msoijehyyF",
+        "mangledName": "$s6miyrcu7msoijehyyF",
+        "moduleName": "miyrcu",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "cuysuy",
+        "printedName": "cuysuy(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Tabzged",
+            "printedName": "miyrcu.Tabzged",
+            "usr": "s:6miyrcu7TabzgedV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6miyrcu6cuysuyyyAA7TabzgedVF",
+        "mangledName": "$s6miyrcu6cuysuyyyAA7TabzgedVF",
+        "moduleName": "miyrcu",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "rwyhbGaur",
+        "printedName": "rwyhbGaur(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Tabzged",
+            "printedName": "miyrcu.Tabzged",
+            "usr": "s:6miyrcu7TabzgedV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6miyrcu9rwyhbGauryyAA7TabzgedVF",
+        "mangledName": "$s6miyrcu9rwyhbGauryyAA7TabzgedVF",
+        "moduleName": "miyrcu",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Mianshe",
+        "printedName": "Mianshe",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wazcve",
+            "printedName": "wazcve",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7MiansheV6wazcveSaySSGSgvp",
+            "mangledName": "$s6miyrcu7MiansheV6wazcveSaySSGSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7MiansheV6wazcveSaySSGSgvg",
+                "mangledName": "$s6miyrcu7MiansheV6wazcveSaySSGSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "yiuwns",
+            "printedName": "yiuwns",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7MiansheV6yiuwnsSaySSGSgvp",
+            "mangledName": "$s6miyrcu7MiansheV6yiuwnsSaySSGSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7MiansheV6yiuwnsSaySSGSgvg",
+                "mangledName": "$s6miyrcu7MiansheV6yiuwnsSaySSGSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "miyrcu.Mianshe.Unashey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Unashey",
+                    "printedName": "miyrcu.Mianshe.Unashey",
+                    "usr": "s:6miyrcu7MiansheV7UnasheyV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7MiansheV7countryAC7UnasheyVSgvp",
+            "mangledName": "$s6miyrcu7MiansheV7countryAC7UnasheyVSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "miyrcu.Mianshe.Unashey?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Unashey",
+                        "printedName": "miyrcu.Mianshe.Unashey",
+                        "usr": "s:6miyrcu7MiansheV7UnasheyV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7MiansheV7countryAC7UnasheyVSgvg",
+                "mangledName": "$s6miyrcu7MiansheV7countryAC7UnasheyVSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Unashey",
+            "printedName": "Unashey",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "code",
+                "printedName": "code",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6miyrcu7MiansheV7UnasheyV4codeSSvp",
+                "mangledName": "$s6miyrcu7MiansheV7UnasheyV4codeSSvp",
+                "moduleName": "miyrcu",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6miyrcu7MiansheV7UnasheyV4codeSSvg",
+                    "mangledName": "$s6miyrcu7MiansheV7UnasheyV4codeSSvg",
+                    "moduleName": "miyrcu",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(code:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Unashey",
+                    "printedName": "miyrcu.Mianshe.Unashey",
+                    "usr": "s:6miyrcu7MiansheV7UnasheyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6miyrcu7MiansheV7UnasheyV4codeAESS_tcfc",
+                "mangledName": "$s6miyrcu7MiansheV7UnasheyV4codeAESS_tcfc",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Unashey",
+                    "printedName": "miyrcu.Mianshe.Unashey",
+                    "usr": "s:6miyrcu7MiansheV7UnasheyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6miyrcu7MiansheV7UnasheyV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s6miyrcu7MiansheV7UnasheyV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:6miyrcu7MiansheV7UnasheyV",
+            "mangledName": "$s6miyrcu7MiansheV7UnasheyV",
+            "moduleName": "miyrcu",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wazcve:yiuwns:country:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Mianshe",
+                "printedName": "miyrcu.Mianshe",
+                "usr": "s:6miyrcu7MiansheV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "miyrcu.Mianshe.Unashey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Unashey",
+                    "printedName": "miyrcu.Mianshe.Unashey",
+                    "usr": "s:6miyrcu7MiansheV7UnasheyV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6miyrcu7MiansheV6wazcve6yiuwns7countryACSaySSGSg_AhC7UnasheyVSgtcfc",
+            "mangledName": "$s6miyrcu7MiansheV6wazcve6yiuwns7countryACSaySSGSg_AhC7UnasheyVSgtcfc",
+            "moduleName": "miyrcu",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Mianshe",
+                "printedName": "miyrcu.Mianshe",
+                "usr": "s:6miyrcu7MiansheV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6miyrcu7MiansheV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6miyrcu7MiansheV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "miyrcu",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6miyrcu7MiansheV",
+        "mangledName": "$s6miyrcu7MiansheV",
+        "moduleName": "miyrcu",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Tabzged",
+        "printedName": "Tabzged",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "majueus",
+            "printedName": "majueus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7TabzgedV7majueusSSSgvp",
+            "mangledName": "$s6miyrcu7TabzgedV7majueusSSSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7TabzgedV7majueusSSSgvg",
+                "mangledName": "$s6miyrcu7TabzgedV7majueusSSSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jdiank",
+            "printedName": "jdiank",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7TabzgedV6jdiankSSSgvp",
+            "mangledName": "$s6miyrcu7TabzgedV6jdiankSSSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7TabzgedV6jdiankSSSgvg",
+                "mangledName": "$s6miyrcu7TabzgedV6jdiankSSSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "peuans",
+            "printedName": "peuans",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7TabzgedV6peuansSaySSGSgvp",
+            "mangledName": "$s6miyrcu7TabzgedV6peuansSaySSGSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7TabzgedV6peuansSaySSGSgvg",
+                "mangledName": "$s6miyrcu7TabzgedV6peuansSaySSGSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pduenh",
+            "printedName": "pduenh",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7TabzgedV6pduenhSSSgvp",
+            "mangledName": "$s6miyrcu7TabzgedV6pduenhSSSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7TabzgedV6pduenhSSSgvg",
+                "mangledName": "$s6miyrcu7TabzgedV6pduenhSSSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zisoek",
+            "printedName": "zisoek",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7TabzgedV6zisoekSSSgvp",
+            "mangledName": "$s6miyrcu7TabzgedV6zisoekSSSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7TabzgedV6zisoekSSSgvg",
+                "mangledName": "$s6miyrcu7TabzgedV6zisoekSSSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tavbzgs",
+            "printedName": "tavbzgs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7TabzgedV7tavbzgsSSSgvp",
+            "mangledName": "$s6miyrcu7TabzgedV7tavbzgsSSSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7TabzgedV7tavbzgsSSSgvg",
+                "mangledName": "$s6miyrcu7TabzgedV7tavbzgsSSSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mxiank",
+            "printedName": "mxiank",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7TabzgedV6mxiankSSSgvp",
+            "mangledName": "$s6miyrcu7TabzgedV6mxiankSSSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7TabzgedV6mxiankSSSgvg",
+                "mangledName": "$s6miyrcu7TabzgedV6mxiankSSSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mansheu",
+            "printedName": "mansheu",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6miyrcu7TabzgedV7mansheuSSSgvp",
+            "mangledName": "$s6miyrcu7TabzgedV7mansheuSSSgvp",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6miyrcu7TabzgedV7mansheuSSSgvg",
+                "mangledName": "$s6miyrcu7TabzgedV7mansheuSSSgvg",
+                "moduleName": "miyrcu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(majueus:jdiank:peuans:pduenh:zisoek:tavbzgs:mxiank:mansheu:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tabzged",
+                "printedName": "miyrcu.Tabzged",
+                "usr": "s:6miyrcu7TabzgedV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6miyrcu7TabzgedV7majueus6jdiank6peuans6pduenh6zisoek7tavbzgs6mxiank7mansheuACSSSg_ALSaySSGSgA5Ltcfc",
+            "mangledName": "$s6miyrcu7TabzgedV7majueus6jdiank6peuans6pduenh6zisoek7tavbzgs6mxiank7mansheuACSSSg_ALSaySSGSgA5Ltcfc",
+            "moduleName": "miyrcu",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tabzged",
+                "printedName": "miyrcu.Tabzged",
+                "usr": "s:6miyrcu7TabzgedV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6miyrcu7TabzgedV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6miyrcu7TabzgedV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "miyrcu",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6miyrcu7TabzgedV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6miyrcu7TabzgedV6encode2toys7Encoder_p_tKF",
+            "moduleName": "miyrcu",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6miyrcu7TabzgedV",
+        "mangledName": "$s6miyrcu7TabzgedV",
+        "moduleName": "miyrcu",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "Bzaise",
+        "printedName": "Bzaise()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6miyrcu6BzaiseSbyF",
+        "mangledName": "$s6miyrcu6BzaiseSbyF",
+        "moduleName": "miyrcu",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "stringTo",
+            "printedName": "stringTo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS6miyrcuE8stringToSDySSyXlGSgyF",
+            "mangledName": "$sSS6miyrcuE8stringToSDySSyXlGSgyF",
+            "moduleName": "miyrcu",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC6miyrcuE3hex5alphaABSi_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC6miyrcuE3hex5alphaABSi_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hexString:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC6miyrcuE9hexString5alphaABSgSS_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC6miyrcuE9hexString5alphaABSgSS_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "miyrcu",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIDevice",
+        "printedName": "UIDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "modelName",
+            "printedName": "modelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8UIDeviceC6miyrcuE9modelNameSSvp",
+            "mangledName": "$sSo8UIDeviceC6miyrcuE9modelNameSSvp",
+            "moduleName": "miyrcu",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8UIDeviceC6miyrcuE9modelNameSSvg",
+                "mangledName": "$sSo8UIDeviceC6miyrcuE9modelNameSSvg",
+                "moduleName": "miyrcu",
+                "isOpen": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIDevice",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIDevice",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 532,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "FloatLiteral",
+      "offset": 582,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "FloatLiteral",
+      "offset": 625,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 667,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 716,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "Array",
+      "offset": 888,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 981,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "StringLiteral",
+      "offset": 1078,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1012,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1317,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1398,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1446,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1457,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "StringLiteral",
+      "offset": 1481,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "StringLiteral",
+      "offset": 1633,
+      "length": 10,
+      "value": "\"Rekindle\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1774,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1826,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1838,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1879,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1916,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2071,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2111,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2389,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "Array",
+      "offset": 2476,
+      "length": 6,
+      "value": "[0, 1]"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2524,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2532,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2576,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2582,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/GlowVeilView.swift",
+      "kind": "StringLiteral",
+      "offset": 2622,
+      "length": 17,
+      "value": "\"screenBlendMode\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/SznheXzuejViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/SznheXzuejViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1593,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/SznheXzuejViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/SznheXzuejViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5082,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/Fznaheu.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 46,
+      "value": "\"BBgYHB9WQ0MNHAVCARVBBRxCBQNDGl5DBRxCBh8DAg==\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/Fznaheu.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 78,
+      "value": "\"BBgYHB9WQ0NaVQ5cDglUWw9aXwgIXVVbCgkODwoIW1pCAQMPBw0cBUIFA0MPDRxDDw0fDw0ICQ==\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/Fznaheu.swift",
+      "kind": "StringLiteral",
+      "offset": 2024,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/Fznaheu.swift",
+      "kind": "StringLiteral",
+      "offset": 2869,
+      "length": 6,
+      "value": "\"OT8=\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/Fznaheu.swift",
+      "kind": "StringLiteral",
+      "offset": 2886,
+      "length": 6,
+      "value": "\"IiA=\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/Fznaheu.swift",
+      "kind": "FloatLiteral",
+      "offset": 4383,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/03\/0311-1\/miyrcu\/miyrcu\/Fznaheu.swift",
+      "kind": "FloatLiteral",
+      "offset": 4678,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}
